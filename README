@@ -1,0 +1,7 @@
+**** Make this app as Device Owner using this command****
+
+ adb shell dpm set-device-owner com.kushal.cosuSample/.receiver.DeviceAdminReceiver
+
+****Remove this app as Device Owner using this command****
+
+ adb shell dpm remove-active-admin com.kushal.cosuSample/.receiver.DeviceAdminReceiver

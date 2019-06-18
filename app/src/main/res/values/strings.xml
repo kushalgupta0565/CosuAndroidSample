@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CosuSampleApp</string>
+    <string name="not_device_owner">This app is not set as device owner
+        and cannot start lock task mode</string>
+</resources>
