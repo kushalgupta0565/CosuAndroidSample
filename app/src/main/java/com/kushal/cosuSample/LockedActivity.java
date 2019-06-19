@@ -42,6 +42,6 @@ public class LockedActivity extends CosuActivity {
 
     @Override
     public void onBackPressed() {
-
+        startScreenPinning();
     }
 }

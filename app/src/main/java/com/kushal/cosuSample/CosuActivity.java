@@ -29,6 +29,10 @@ public class CosuActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
+        startScreenPinning();
+    }
+
+    public void startScreenPinning() {
         // Start screen pinning
         if (mDevicePolicyManager.isLockTaskPermitted(this.getPackageName())) {
             ActivityManager am = (ActivityManager) getSystemService(
